@@ -1,0 +1,68 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.header{
+    background-color: white;
+    display: flex; flex-wrap: nowrap;
+    height: 80px; justify-content: space-around;
+}
+.topbar{
+    font-size: 3vw; font-family: 'Srisakdi', cursive; color: black;
+}
+.tagline{
+    font-size: 20px; color: brown; margin-top: 20px;
+}
+.intro{
+  background-image: url(https://cdn.pixabay.com/photo/2020/04/26/17/09/park-5096224_1280.jpg); 
+ background-repeat: no-repeat; background-size: cover;
+    display: flex; flex-wrap: wrap; 
+    height:500px; justify-content: space-around;
+    padding: 50px;
+}
+
+.hii{
+color: black; 
+}
+
+.tophead{
+    margin: auto; position: relative; font-size: 5.5vw; overflow: hidden; display: inline-block;
+}
+
+h1 .text {
+    font-weight: normal;
+    padding-left: 1.2vw;
+    background-color: yellowgreen;
+  }
+h1 .box {
+    position: absolute;
+    bottom: 0;
+    display: inline-block;
+    background: skyblue;
+    height: 1vw;
+    opacity: 50%;
+  }
+.aboutme{
+    font-size: 24px;
+}
+
+#flex1{
+    display: flex; flex-wrap: wrap-reverse; justify-content: space-evenly; 
+    display: -ms-flexbox; display: -webkit-flex; width: 100%; flex-basis: 33%;
+}
+#flex1 div{
+  flex: 0 0 0;
+}
+
+.flex3{
+    grid-column-start: 1; grid-column-end: 4; height: auto;
+    background-color: dodgerblue; margin-top: 100px; opacity: 70%; background-image: url(human.jpg);
+    background-repeat: no-repeat; background-position: center; background-size: cover;  padding: 50px;
+}
+.details{
+    display: grid; grid-template-columns: 20% 60% 20%; position: relative; padding: 20px;
+    justify-items: center;
+    }
